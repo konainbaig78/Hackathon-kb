@@ -427,7 +427,7 @@ color: #989898;
 } */
 
 /* Media Queries */
-@media screen and (max-width:480px) {
+@media screen and (min-width:200px) and (max-width:480px) {
  .fc{
     flex-direction: column !important;
  
