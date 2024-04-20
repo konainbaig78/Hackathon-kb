@@ -504,6 +504,9 @@ font-size: 20px;
     align-items: center;
     flex-direction: column;
    }
+   .text-al{
+    text-align: center !important;
+   }
    .h2-b{
     line-height: 49px;
     font-size: 40px;
