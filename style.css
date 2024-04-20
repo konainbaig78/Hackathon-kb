@@ -427,7 +427,7 @@ color: #989898;
 } */
 
 /* Media Queries */
-@media screen and (min-width:200px) and (max-width:480px) {
+@media screen and (min-width: 200px) and (max-width: 480px) {
  .fc{
     flex-direction: column !important;
  
@@ -444,6 +444,9 @@ color: #989898;
     height: 63rem;
     border-radius: 0;
    }
+   .hidden{
+    overflow: hidden !important;
+   }
    .h4_a{
 margin-top: 2rem;
 text-align: center !important;
@@ -453,6 +456,9 @@ font-size: 20px;
     text-align: center;
     font-size:52px;
 
+   }
+   .w{
+    width: 249% ;
    }
    .p-a{
     text-align: center;
@@ -481,10 +487,8 @@ font-size: 20px;
     justify-content: center;
     align-items: center;
    }
- .w{
-    width: 137%;
-   
-   
+ .mrb{
+    margin-left: 0 !important;
  }
  .ml{
     margin-left: 170px;
@@ -523,7 +527,7 @@ font-size: 20px;
     gap: 2rem !important;
   }
   .h1-n{
-    font-size: 57px;
+    font-size: 41px;
     line-height: 60px;
     text-align: center;
     margin-bottom: 44px;
@@ -541,17 +545,21 @@ font-size: 20px;
     font-size: 23px;
    
   }
- .wc{
-    width: 120%;
- }
+ 
  .wce{
     width: 100%;
 }
  .h4-d{
-    font-size: 24px;
+    font-size: 26px;
  }
  .mt-e{
     margin-top: 0;
+ }
+ .mt{
+    margin-top: 11px;
+ }
+ .mt-o{
+    margin-top: 20px;
  }
  .g-4{
     gap: 4rem;
@@ -568,6 +576,9 @@ font-size: 20px;
  }
  .about{
     font-size: 31px;
+ }
+ .secd{
+    margin-left: 2px !important;
  }
  .p-foot{
     font-size:22px;
